@@ -1,0 +1,94 @@
+ * {
+   margin:0;
+   padding:0;
+ }
+
+
+ /****  Debut page accueil****/
+ header{
+   background-color: black;
+   color:white;
+   text-align: center;
+   height:15vh;
+   position: fixed;
+   width:100%;
+ }
+
+
+main {
+   height: 90vh;
+   background-image:url(../image/fondmain2.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+
+ }
+
+ button:hover{
+   background-color: crimson;
+ }
+
+ main button{
+   margin:31% 9% 5% 9%;
+   height:70px;
+   width: 250px;
+   border: 1px solid;
+   background-color: lightgrey;
+   color:black;
+
+ }
+
+ form{
+   border:1px solid;
+   border-radius: 4%;
+   width:500px;
+   height: 400px;
+   margin-left: 40%;
+   margin-top:8%;
+   background-color: white;
+   opacity: .8;
+   padding:10px;
+ }
+
+#liste,#formulaire{
+  height: 100vh;
+  background-color: #f2e7d9;
+  padding-top:20px;
+}
+
+#formulaire{
+  background-image:url(../image/fondAjouterArticle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+#formulaire input{
+  margin-bottom:20px;
+}
+
+#valider{
+  margin-top:80px;
+  margin-left: 35%;
+  width:150px;
+}
+ footer {
+   height:11vh;
+   background-color: black;
+ }
+
+tr,td, th {
+    border: 1px solid;
+    width:70px;
+    padding: 20px;
+ }
+
+ table{
+   border-collapse: collapse;
+   margin-top: 50px;
+   margin-left: 450px;
+ }
+
+ h2{
+   text-align: center;
+   margin-top: 200px;
+ }

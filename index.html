@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="keyword" content="">
+  <meta name="description" content="">
+  <meta name="author" content="Farida Cedric Fatima">
+  <meta name="identifier-URL" content="www.bizonline.com">
+  <meta name="revisit-after" content="5 days">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/app.js"></script>
+  <title>bizOnline - Gestion de stock</title>
+</head>
+
+<body>
+  <section id="accueil">
+    <header>
+      <h1>BizOnline</h1>
+    </header>
+    <main>
+      <a href="#formulaire"><button id="nouveauProduit" class="btn">Nouveau Produit</button></a>
+      <a href="#liste"><button id="listeProduit" class="btn">Consultez vos Produits</button></a>
+      <a href="#suppr"><button id="suppression" class="btn">Supprimer Produits</button></a>
+    </main>
+    <footer>
+      <button id="infos">Infos</button>
+    </footer>
+  </section>
+
+  <section id="formulaire" >
+    <h2>Nouveau Produit</h2>
+    <form>
+      <label for="nom">Nom:* </label><input id="nom" type="text" name="Nom" placeholder="ex: chocolat" autofocus required><br>
+      <label for="Prix">Prix:* </label><input id="prix" step="0.01" type="text" name="Prix" placeholder="ex: 20.28" required><br>
+      <label for="description">D&eacute;scription:* </label><input id="description" type="text" name="description" placeholder="caract&egrave;re" required><br>
+      <label for="couleur">Couleur:</label><input id="couleur" type="color" name="couleur"><br>
+      <label for="poids">Poids:</label><input id="poids" type="number" name="poids" placeholder="poids en gramme" min="0"><br>
+      <input id="valider" type="submit" name="valider">
+    </form>
+  </section>
+
+  <section id="liste">
+    <h2>Vos Produits</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prix</th>
+          <th>Description</th>
+          <th>Référence</th>
+          <th>Image</th>
+          <th>Couleur</th>
+          <th>Poids</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="tbody">
+      </tbody>
+    </table>
+</body>
+
+</html>
